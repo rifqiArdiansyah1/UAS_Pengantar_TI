@@ -22,7 +22,7 @@
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #272829; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #050d18; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #149ddd; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #A5D6A7; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -42,6 +42,26 @@
 .light-background {
   --background-color: #f4fafd;
   --surface-color: #ffffff;
+}
+
+.bi-github:hover {
+  color:#040b14;
+}
+
+.bi-instagram:hover {
+  color:  #cd486b;
+}
+
+.bi-facebook:hover {
+  color: #316FF6;
+}
+
+.bi-linkedin:hover {
+  color: #0077B5;
+}
+
+.bi-twitter-x:hover {
+  color: var(--nav-dropdown-background-color);
 }
 
 .dark-background {
@@ -144,7 +164,7 @@ h6 {
 --------------------------------------------------------------*/
 .header {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: #2a5d4e;
   position: fixed;
   top: 0;
   left: 0;
@@ -190,7 +210,7 @@ h6 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: color-mix(in srgb, var(--default-color), transparent 90%);
+  background: #4CAF50;
   color: var(--default-color);
   margin: 0 2px;
   border-radius: 50%;
@@ -202,7 +222,7 @@ h6 {
 
 .header .social-links a:hover {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: #388E3C;
 }
 
 @media (min-width: 1200px) {
@@ -605,7 +625,7 @@ section,
 }
 
 .hero .social-links a:hover {
-  color: var(--accent-color);
+  color: #388E3C;
 }
 
 @media (max-width: 768px) {
